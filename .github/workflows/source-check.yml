@@ -29,7 +29,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git merge -s ours --no-commit --allow-unrelated-histories imported-site
           git restore --source=imported-site --staged --worktree -- . ':!.github/workflows'
-          git rm Open-Creative-Lab.bundle
+          git rm --ignore-unmatch Open-Creative-Lab.bundle
           test "$(git ls-files --stage third_party | awk '$1 == 160000' | wc -l)" -eq 6
           echo 'restored=true' >> "$GITHUB_OUTPUT"
       - uses: actions/setup-node@v4
