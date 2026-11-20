@@ -1,50 +1,87 @@
-name: Import and validate Creative Lab
+name: Validate and approve production source
 on:
   push:
     branches: [main]
   pull_request:
-  workflow_dispatch:
+    branches: [main]
 permissions:
   contents: read
+concurrency:
+  group: creative-lab-check-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
-  check:
+  policy:
+    name: Check release policy
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    outputs:
+      trusted: ${{ steps.gate.outputs.trusted }}
+    steps:
+      - name: Test and evaluate owner-only main policy
+        id: gate
+        env:
+          TRIGGERING_ACTOR: ${{ github.triggering_actor }}
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import {readFileSync,appendFileSync} from 'node:fs';
+          // POLICY_BEGIN: no checked-out source, secrets, or write token is used.
+          function trusted(e,c) {
+            return c.event === 'push' && c.ref === 'refs/heads/main'
+              && c.repo === 'FransicAppleFX/open-creative-lab'
+              && c.actor === 'FransicAppleFX' && c.actorId === '343726077'
+              && c.triggeringActor === 'FransicAppleFX'
+              && e.repository?.id === 1465596744
+              && e.repository?.full_name === c.repo
+              && e.repository?.owner?.id === 343726077
+              && e.repository?.fork === false && e.sender?.id === 343726077
+              && e.ref === c.ref && e.deleted === false && e.forced === false
+              && /^[0-9a-f]{40}$/.test(c.sha) && e.after === c.sha;
+          }
+          const c={event:'push',ref:'refs/heads/main',repo:'FransicAppleFX/open-creative-lab',actor:'FransicAppleFX',actorId:'343726077',triggeringActor:'FransicAppleFX',sha:'a'.repeat(40)};
+          const e={repository:{id:1465596744,full_name:c.repo,owner:{id:343726077},fork:false},sender:{id:343726077},ref:c.ref,deleted:false,forced:false,after:c.sha};
+          assert.equal(trusted(e,c),true,'owner push / owner merge must pass');
+          for(const event of ['pull_request','pull_request_target','workflow_dispatch','workflow_run']) assert.equal(trusted(e,{...c,event}),false,event);
+          for(const [key,value] of Object.entries({actor:'stranger',actorId:'1',triggeringActor:'stranger',repo:'stranger/open-creative-lab',ref:'refs/heads/preview',sha:'bad'})) assert.equal(trusted(e,{...c,[key]:value}),false,key);
+          assert.equal(trusted({...e,sender:{id:1}},c),false,'forged commit author does not authorize a sender');
+          assert.equal(trusted({...e,repository:{...e.repository,id:1}},c),false,'different repository id');
+          assert.equal(trusted({...e,repository:{...e.repository,fork:true}},c),false,'fork');
+          assert.equal(trusted({...e,forced:true},c),false,'force push');
+          assert.equal(trusted({...e,deleted:true},c),false,'deleted ref');
+          assert.equal(trusted({...e,after:'b'.repeat(40)},c),false,'SHA mismatch');
+          const context={event:process.env.GITHUB_EVENT_NAME,ref:process.env.GITHUB_REF,repo:process.env.GITHUB_REPOSITORY,actor:process.env.GITHUB_ACTOR,actorId:process.env.GITHUB_ACTOR_ID,triggeringActor:process.env.TRIGGERING_ACTOR,sha:process.env.GITHUB_SHA};
+          const approved=trusted(JSON.parse(readFileSync(process.env.GITHUB_EVENT_PATH,'utf8')),context);
+          appendFileSync(process.env.GITHUB_OUTPUT,`trusted=${approved}\n`);
+          appendFileSync(process.env.GITHUB_STEP_SUMMARY,`Release policy tests passed. Production eligible: ${approved}.\n`);
+          // POLICY_END
+          NODE
+  check:
+    name: Validate source and build
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-      - name: Restore verified source history when bundle is present
-        id: import
-        if: github.event_name != 'pull_request'
-        shell: bash
-        run: |
-          if [ ! -f Open-Creative-Lab.bundle ]; then exit 0; fi
-          echo '706fb81b18b31f92ebbeaa817dfd7c1f90f0d14534d84372251714043b7507bf  Open-Creative-Lab.bundle' | sha256sum --check
-          git bundle verify Open-Creative-Lab.bundle
-          git fetch ./Open-Creative-Lab.bundle main:imported-site
-          test "$(git rev-parse imported-site)" = '04c474f260b458ed4135937e549356383733ed0c'
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git merge -s ours --no-commit --allow-unrelated-histories imported-site
-          git restore --source=imported-site --staged --worktree -- . ':!.github/workflows'
-          git rm --ignore-unmatch Open-Creative-Lab.bundle
-          test "$(git ls-files --stage third_party | awk '$1 == 160000' | wc -l)" -eq 6
-          echo 'restored=true' >> "$GITHUB_OUTPUT"
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
       - run: npm ci --ignore-scripts
       - run: npm run check
       - run: npm run build
-      - name: Publish restored source to main
-        if: steps.import.outputs.restored == 'true'
-        run: |
-          git commit -m 'Import verified Site history and six upstream submodules'
-          git push origin HEAD:main
       - uses: actions/upload-artifact@v4
         with:
           name: open-creative-lab-site
           path: dist/
           retention-days: 14
+  release:
+    name: Approve production source
+    needs: [policy, check]
+    if: needs.policy.outputs.trusted == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Record eligible commit for the Sites cloud publisher
+        shell: bash
+        run: |
+          printf 'Owner-authorized main SHA: %s\n' "$GITHUB_SHA" >> "$GITHUB_STEP_SUMMARY"
+          printf 'Run: %s/actions/runs/%s\n' "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" >> "$GITHUB_STEP_SUMMARY"
+          printf 'This is an approval receipt, not a Sites deployment. The linked cloud publisher verifies this run independently.\n' >> "$GITHUB_STEP_SUMMARY"
