@@ -1,0 +1,50 @@
+name: Import and validate Creative Lab
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Restore verified source history when bundle is present
+        id: import
+        if: github.event_name != 'pull_request'
+        shell: bash
+        run: |
+          if [ ! -f Open-Creative-Lab.bundle ]; then exit 0; fi
+          echo '706fb81b18b31f92ebbeaa817dfd7c1f90f0d14534d84372251714043b7507bf  Open-Creative-Lab.bundle' | sha256sum --check
+          git bundle verify Open-Creative-Lab.bundle
+          git fetch ./Open-Creative-Lab.bundle main:imported-site
+          test "$(git rev-parse imported-site)" = '04c474f260b458ed4135937e549356383733ed0c'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git merge -s ours --no-commit --allow-unrelated-histories imported-site
+          git restore --source=imported-site --staged --worktree -- . ':!.github/workflows'
+          git rm Open-Creative-Lab.bundle
+          test "$(git ls-files --stage third_party | awk '$1 == 160000' | wc -l)" -eq 6
+          echo 'restored=true' >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --ignore-scripts
+      - run: npm run check
+      - run: npm run build
+      - name: Publish restored source to main
+        if: steps.import.outputs.restored == 'true'
+        run: |
+          git commit -m 'Import verified Site history and six upstream submodules'
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        with:
+          name: open-creative-lab-site
+          path: dist/
+          retention-days: 14
