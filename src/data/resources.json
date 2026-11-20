@@ -1,0 +1,15 @@
+[
+ {"id":"ollama","name":"Ollama","category":"AI 工具","description":"探索本地与云端模型运行，从官方文档开始了解模型与部署方式。","url":"https://github.com/ollama/ollama","label":"模型运行"},
+ {"id":"dify","name":"Dify","category":"AI 工具","description":"可视化 AI 应用与 Agent 工作流平台，包含 RAG 与工具集成。","url":"https://github.com/langgenius/dify","label":"AI 工作流"},
+ {"id":"n8n","name":"n8n","category":"自动化","description":"连接应用和数据的自动化工作流平台；许可为 fair-code，请先阅读条款。","url":"https://github.com/n8n-io/n8n","label":"Fair-code"},
+ {"id":"supabase","name":"Supabase","category":"云开发","description":"以 Postgres 为核心的应用开发平台，探索数据库及相关云端能力。","url":"https://github.com/supabase/supabase","label":"数据库平台"},
+ {"id":"cloudflare","name":"Cloudflare Developers","category":"云开发","description":"Workers、D1 与 R2 等产品的官方文档与实践入口。","url":"https://developers.cloudflare.com/","label":"官方文档"},
+ {"id":"shadcn","name":"shadcn/ui","category":"前端设计","description":"可阅读、修改和组合的 UI 组件，适合搭建自己的设计系统。","url":"https://github.com/shadcn-ui/ui","label":"组件系统"},
+ {"id":"admin","name":"shadcn-admin","category":"前端设计","description":"面向后台应用的数据界面、表格和导航布局参考。","url":"https://github.com/satnaing/shadcn-admin","label":"管理后台"},
+ {"id":"astrowind","name":"AstroWind","category":"前端设计","description":"以 Astro 构建产品与内容站点的社区模板，使用前核对当前依赖版本。","url":"https://github.com/arthelokyo/astrowind","label":"宣传模板"},
+ {"id":"github-explore","name":"GitHub Explore","category":"社区学习","description":"探索社区项目与主题，找到感兴趣的工具和贡献方向。","url":"https://github.com/explore","label":"社区发现"},
+ {"id":"opensource","name":"Open Source Guides","category":"社区学习","description":"了解如何参与、维护和发展开源项目，以及贡献者协作方式。","url":"https://opensource.guide/","label":"贡献指南"},
+ {"id":"mdn","name":"MDN Web Docs","category":"社区学习","description":"学习 HTML、CSS、JavaScript 和 Web API 的基础文档。","url":"https://developer.mozilla.org/en-US/","label":"Web 基础"},
+ {"id":"actions","name":"GitHub Actions Docs","category":"自动化","description":"了解仓库检查、工作流和自动化维护的官方使用方法。","url":"https://docs.github.com/en/actions","label":"仓库自动化"}
+]
+

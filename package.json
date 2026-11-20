@@ -1,0 +1,22 @@
+{
+  "name": "open-source-template-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "refresh": "node scripts/refresh-data.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "animejs": "4.5.0",
+    "lottie-web": "5.13.0",
+    "pixi-live2d-display": "0.4.0",
+    "pixi.js": "6.5.10",
+    "three": "0.187.0"
+  },
+  "overrides": {
+    "gh-pages": "6.3.0"
+  }
+}

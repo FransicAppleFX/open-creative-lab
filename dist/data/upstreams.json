@@ -1,0 +1,59 @@
+{
+  "fetchedAt": "2026-11-20T23:09:42.755136+08:00",
+  "items": [
+    {
+      "name": "threejs",
+      "repo": "mrdoob/three.js",
+      "ref": "r187",
+      "commit": "7e89746a687bb88271253698fa108b1dd59825d0",
+      "stars": 119014,
+      "license": "MIT",
+      "url": "https://github.com/mrdoob/three.js"
+    },
+    {
+      "name": "animejs",
+      "repo": "juliangarnier/anime",
+      "ref": "v4.5.0",
+      "commit": "2c9cf8ea00329f6768c7d7902252ed977d75ce42",
+      "stars": 74927,
+      "license": "MIT",
+      "url": "https://github.com/juliangarnier/anime"
+    },
+    {
+      "name": "lottie",
+      "repo": "airbnb/lottie-web",
+      "ref": "v5.13.0",
+      "commit": "bede03d25d232826e0c9dca1733d542d8a7754fb",
+      "stars": 32532,
+      "license": "MIT",
+      "url": "https://github.com/airbnb/lottie-web"
+    },
+    {
+      "name": "model-viewer",
+      "repo": "google/model-viewer",
+      "ref": "master",
+      "commit": "5cc277a497f6e13fc75ff4821da73164a12570c9",
+      "stars": 8350,
+      "license": "Apache-2.0",
+      "url": "https://github.com/google/model-viewer"
+    },
+    {
+      "name": "three-vrm",
+      "repo": "pixiv/three-vrm",
+      "ref": "dev",
+      "commit": "3caf7a21ee68f0d5dfa363ab3d577450bbf60136",
+      "stars": 2300,
+      "license": "MIT",
+      "url": "https://github.com/pixiv/three-vrm"
+    },
+    {
+      "name": "live2d",
+      "repo": "guansss/pixi-live2d-display",
+      "ref": "v0.4.0",
+      "commit": "12148332b8838ca00ad76764e0e7521abf980e3b",
+      "stars": 1519,
+      "license": "MIT",
+      "url": "https://github.com/guansss/pixi-live2d-display"
+    }
+  ]
+}

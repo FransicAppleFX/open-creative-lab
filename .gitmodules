@@ -1,0 +1,18 @@
+[submodule "third_party/threejs"]
+	path = third_party/threejs
+	url = https://github.com/mrdoob/three.js.git
+[submodule "third_party/animejs"]
+	path = third_party/animejs
+	url = https://github.com/juliangarnier/anime.git
+[submodule "third_party/lottie"]
+	path = third_party/lottie
+	url = https://github.com/airbnb/lottie-web.git
+[submodule "third_party/model-viewer"]
+	path = third_party/model-viewer
+	url = https://github.com/google/model-viewer.git
+[submodule "third_party/three-vrm"]
+	path = third_party/three-vrm
+	url = https://github.com/pixiv/three-vrm.git
+[submodule "third_party/live2d"]
+	path = third_party/live2d
+	url = https://github.com/guansss/pixi-live2d-display.git

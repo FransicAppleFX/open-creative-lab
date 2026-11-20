@@ -1,0 +1,1280 @@
+[
+  {
+    "zh": "Open Atlas · AI 与云端资源导航 · Template Lab",
+    "en": "Open Atlas · AI & cloud directory · Template Lab",
+    "ja": "Open Atlas · AI とクラウドのリソース集 · Template Lab",
+    "ko": "Open Atlas · AI 및 클라우드 모음 · Template Lab"
+  },
+  {
+    "zh": "跳到主要内容",
+    "en": "Skip to main content",
+    "ja": "メインコンテンツへ",
+    "ko": "본문으로 이동"
+  },
+  {
+    "zh": "模板馆",
+    "en": "Template gallery",
+    "ja": "テンプレート一覧",
+    "ko": "템플릿 갤러리"
+  },
+  {
+    "zh": "发布页",
+    "en": "Launch",
+    "ja": "リリース",
+    "ko": "출시"
+  },
+  {
+    "zh": "数据",
+    "en": "Analytics",
+    "ja": "データ",
+    "ko": "데이터"
+  },
+  {
+    "zh": "任务",
+    "en": "Tasks",
+    "ja": "タスク",
+    "ko": "작업"
+  },
+  {
+    "zh": "导航",
+    "en": "Resources",
+    "ja": "リソース",
+    "ko": "리소스"
+  },
+  {
+    "zh": "好工具，值得被找到。",
+    "en": "Good tools deserve to be found.",
+    "ja": "よいツールに、出会おう。",
+    "ko": "좋은 도구를 만나보세요."
+  },
+  {
+    "zh": "从 AI 工作流到云开发，把值得探索的项目放在一起。精选官方入口，帮你少找一会儿，多做一点。",
+    "en": "From AI workflows to cloud development, explore useful projects through curated official links. Less searching, more building.",
+    "ja": "AI ワークフローからクラウド開発まで。公式リンクで探す時間を減らし、作る時間を増やしましょう。",
+    "ko": "AI 워크플로부터 클라우드 개발까지 공식 링크를 통해 유용한 프로젝트를 만나보세요. 검색은 줄이고 만드는 시간을 늘리세요."
+  },
+  {
+    "zh": "搜索工具和资源",
+    "en": "Search tools and resources",
+    "ja": "ツールとリソースを検索",
+    "ko": "도구 및 리소스 검색"
+  },
+  {
+    "zh": "下一次贡献，从一个小问题开始。",
+    "en": "Your next contribution starts small.",
+    "ja": "次の貢献は、小さな課題から。",
+    "ko": "다음 기여는 작은 문제에서 시작됩니다."
+  },
+  {
+    "zh": "逛逛 GitHub 的 good first issue，读完贡献指南，再选择适合自己的任务。",
+    "en": "Explore good first issues on GitHub, read the contribution guide and find a task that fits.",
+    "ja": "GitHub の good first issue と貢献ガイドを読み、自分に合った課題を探しましょう。",
+    "ko": "GitHub의 good first issue와 기여 가이드를 읽고 알맞은 작업을 찾아보세요."
+  },
+  {
+    "zh": "探索社区机会",
+    "en": "Find ways to contribute",
+    "ja": "貢献の機会を探す",
+    "ko": "기여 기회 탐색"
+  },
+  {
+    "zh": "精选工具与学习资源",
+    "en": "Curated tools and learning resources",
+    "ja": "厳選ツールと学習リソース",
+    "ko": "선별한 도구와 학습 리소스"
+  },
+  {
+    "zh": "只看收藏",
+    "en": "Favorites only",
+    "ja": "お気に入りのみ",
+    "ko": "즐겨찾기만"
+  },
+  {
+    "zh": "＋ 添加链接",
+    "en": "＋ Add a link",
+    "ja": "＋ リンクを追加",
+    "ko": "＋ 링크 추가"
+  },
+  {
+    "zh": "收藏与自定义链接仅保存于当前浏览器。",
+    "en": "Favorites and custom links are saved only in this browser.",
+    "ja": "お気に入りと独自リンクは、このブラウザーにのみ保存されます。",
+    "ko": "즐겨찾기와 개인 링크는 이 브라우저에만 저장됩니다."
+  },
+  {
+    "zh": "精选不等于推荐所有使用场景；请查阅各项目许可证与服务条款。",
+    "en": "Check each project's license and terms before choosing it for your use case.",
+    "ja": "用途に応じて各プロジェクトのライセンスと規約を確認してください。",
+    "ko": "사용 목적에 맞는지 각 프로젝트의 라이선스와 약관을 확인하세요."
+  },
+  {
+    "zh": "本目录为人工精选入口，不宣称为热度排名。开源、源码可用与商业服务的许可条件各有不同，请以项目官网为准。",
+    "en": "An editorial selection, not a popularity ranking. Open-source, source-available and commercial services have different terms; check the official project pages.",
+    "ja": "人気ランキングではなく編集による選定です。オープンソース、ソース公開、商用サービスでは条件が異なります。公式情報をご確認ください。",
+    "ko": "편집자가 선별한 목록이며 인기 순위가 아닙니다. 오픈소스, 소스 공개, 상용 서비스의 조건은 다르므로 공식 안내를 확인하세요."
+  },
+  {
+    "zh": "OPEN SOURCE TEMPLATE LAB · 原创交互模板",
+    "en": "OPEN SOURCE TEMPLATE LAB · Original interactive templates",
+    "ja": "OPEN SOURCE TEMPLATE LAB · オリジナルテンプレート",
+    "ko": "OPEN SOURCE TEMPLATE LAB · 오리지널 인터랙티브 템플릿"
+  },
+  {
+    "zh": "使用与 GitHub 维护指南",
+    "en": "Usage & GitHub maintenance",
+    "ja": "使い方と GitHub 運用",
+    "ko": "사용법 및 GitHub 유지보수"
+  },
+  {
+    "zh": "精选案例，非官方排名或项目背书",
+    "en": "Curated examples, not an official ranking or endorsement",
+    "ja": "厳選事例。公式ランキングや推奨ではありません",
+    "ko": "선별한 예시이며 공식 순위나 보증이 아닙니다"
+  },
+  {
+    "zh": "添加自己的资源",
+    "en": "Add your own resource",
+    "ja": "自分のリソースを追加",
+    "ko": "나만의 리소스 추가"
+  },
+  {
+    "zh": "名称",
+    "en": "Name",
+    "ja": "名前",
+    "ko": "이름"
+  },
+  {
+    "zh": "HTTPS 网址",
+    "en": "HTTPS URL",
+    "ja": "HTTPS URL",
+    "ko": "HTTPS URL"
+  },
+  {
+    "zh": "简介",
+    "en": "Description",
+    "ja": "説明",
+    "ko": "설명"
+  },
+  {
+    "zh": "分类",
+    "en": "Category",
+    "ja": "分類",
+    "ko": "분류"
+  },
+  {
+    "zh": "AI 工具",
+    "en": "AI tools",
+    "ja": "AI ツール",
+    "ko": "AI 도구"
+  },
+  {
+    "zh": "自动化",
+    "en": "Automation",
+    "ja": "自動化",
+    "ko": "자동화"
+  },
+  {
+    "zh": "云开发",
+    "en": "Cloud development",
+    "ja": "クラウド開発",
+    "ko": "클라우드 개발"
+  },
+  {
+    "zh": "前端设计",
+    "en": "Frontend design",
+    "ja": "フロントエンド",
+    "ko": "프런트엔드 디자인"
+  },
+  {
+    "zh": "社区学习",
+    "en": "Community & learning",
+    "ja": "コミュニティと学習",
+    "ko": "커뮤니티와 학습"
+  },
+  {
+    "zh": "取消",
+    "en": "Cancel",
+    "ja": "キャンセル",
+    "ko": "취소"
+  },
+  {
+    "zh": "保存链接",
+    "en": "Save link",
+    "ja": "リンクを保存",
+    "ko": "링크 저장"
+  },
+  {
+    "zh": "Open Atlas · AI 与云端资源导航，探索开源与云端社区的可复用交互网站模板。",
+    "en": "Open Atlas · AI & cloud directory. Reusable interactive templates for open-source and cloud communities.",
+    "ja": "Open Atlas · AI とクラウドのリソース集。オープンソースとクラウド向けの再利用可能なテンプレート。",
+    "ko": "Open Atlas · AI 및 클라우드 모음. 오픈소스와 클라우드 커뮤니티를 위한 재사용 가능한 인터랙티브 템플릿."
+  },
+  {
+    "zh": "模板导航",
+    "en": "Template navigation",
+    "ja": "テンプレートナビゲーション",
+    "ko": "템플릿 탐색"
+  },
+  {
+    "zh": "搜索 AI、数据库、前端…",
+    "en": "Search AI, databases, frontend…",
+    "ja": "AI、データベース、フロントエンドを検索…",
+    "ko": "AI, 데이터베이스, 프런트엔드 검색…"
+  },
+  {
+    "zh": "资源分类",
+    "en": "Resource categories",
+    "ja": "リソース分類",
+    "ko": "리소스 분류"
+  },
+  {
+    "zh": "资源列表",
+    "en": "Resource list",
+    "ja": "リソース一覧",
+    "ko": "리소스 목록"
+  },
+  {
+    "zh": "Common Ground · 社区贡献看板 · Template Lab",
+    "en": "Common Ground · Contribution board · Template Lab",
+    "ja": "Common Ground · 貢献ボード · Template Lab",
+    "ko": "Common Ground · 기여 보드 · Template Lab"
+  },
+  {
+    "zh": "模板总览",
+    "en": "All templates",
+    "ja": "すべてのテンプレート",
+    "ko": "모든 템플릿"
+  },
+  {
+    "zh": "◷ 开源热度",
+    "en": "◷ Community analytics",
+    "ja": "◷ コミュニティ分析",
+    "ko": "◷ 커뮤니티 분석"
+  },
+  {
+    "zh": "▦ 社区任务",
+    "en": "▦ Contribution board",
+    "ja": "▦ 貢献ボード",
+    "ko": "▦ 기여 보드"
+  },
+  {
+    "zh": "◇ 工具导航",
+    "en": "◇ Resource directory",
+    "ja": "◇ リソース集",
+    "ko": "◇ 리소스 모음"
+  },
+  {
+    "zh": "◈ 项目发布",
+    "en": "◈ Project launch",
+    "ja": "◈ プロジェクト紹介",
+    "ko": "◈ 프로젝트 출시"
+  },
+  {
+    "zh": "维护指南",
+    "en": "Maintenance guide",
+    "ja": "運用ガイド",
+    "ko": "유지보수 가이드"
+  },
+  {
+    "zh": "社区与云端主题",
+    "en": "Community and cloud",
+    "ja": "コミュニティとクラウド",
+    "ko": "커뮤니티와 클라우드"
+  },
+  {
+    "zh": "独立静态模板",
+    "en": "Standalone static templates",
+    "ja": "独立した静的テンプレート",
+    "ko": "독립형 정적 템플릿"
+  },
+  {
+    "zh": "不连接你的本机项目",
+    "en": "Independent of local projects",
+    "ja": "ローカルプロジェクトと独立",
+    "ko": "로컬 프로젝트와 무관"
+  },
+  {
+    "zh": "浏览器本地工作区",
+    "en": "Your browser workspace",
+    "ja": "ブラウザー内の作業スペース",
+    "ko": "브라우저 작업 공간"
+  },
+  {
+    "zh": "让每一份贡献，都有下一步。",
+    "en": "Every contribution has a next step.",
+    "ja": "すべての貢献に、次の一歩を。",
+    "ko": "모든 기여에 다음 단계가 있습니다."
+  },
+  {
+    "zh": "文档、设计、代码与社区协作，在一张看板上有序推进。",
+    "en": "Bring documentation, design, code and community work together on one board.",
+    "ja": "文書、デザイン、コード、コミュニティ活動をひとつのボードに。",
+    "ko": "문서, 디자인, 코드, 커뮤니티 활동을 하나의 보드에서 관리하세요."
+  },
+  {
+    "zh": "＋ 新建任务",
+    "en": "＋ New task",
+    "ja": "＋ タスクを作成",
+    "ko": "＋ 새 작업"
+  },
+  {
+    "zh": "这是个人贡献规划模板。初始卡片为演示任务，不是真实项目 Issue；修改只保存到当前浏览器，不会提交至 GitHub，也不会与其他访客共享。",
+    "en": "A personal contribution planner. Starter cards are examples, not real issues. Changes stay in this browser and are not submitted to GitHub or shared with other visitors.",
+    "ja": "個人用の計画テンプレートです。初期カードは架空のタスクです。変更はブラウザー内に保存され、GitHub や他の訪問者には共有されません。",
+    "ko": "개인 기여 계획 템플릿입니다. 초기 카드는 예시이며 변경은 이 브라우저에만 저장되고 GitHub나 다른 방문자와 공유되지 않습니다."
+  },
+  {
+    "zh": "搜索任务",
+    "en": "Search tasks",
+    "ja": "タスクを検索",
+    "ko": "작업 검색"
+  },
+  {
+    "zh": "优先级",
+    "en": "Priority",
+    "ja": "優先度",
+    "ko": "우선순위"
+  },
+  {
+    "zh": "全部优先级",
+    "en": "All priorities",
+    "ja": "すべての優先度",
+    "ko": "모든 우선순위"
+  },
+  {
+    "zh": "高优先",
+    "en": "High",
+    "ja": "高",
+    "ko": "높음"
+  },
+  {
+    "zh": "普通",
+    "en": "Normal",
+    "ja": "通常",
+    "ko": "보통"
+  },
+  {
+    "zh": "低优先",
+    "en": "Low",
+    "ja": "低",
+    "ko": "낮음"
+  },
+  {
+    "zh": "导出备份",
+    "en": "Export backup",
+    "ja": "バックアップを出力",
+    "ko": "백업 내보내기"
+  },
+  {
+    "zh": "导入 JSON",
+    "en": "Import JSON",
+    "ja": "JSON を読み込む",
+    "ko": "JSON 가져오기"
+  },
+  {
+    "zh": "新建贡献任务",
+    "en": "New contribution task",
+    "ja": "貢献タスクを作成",
+    "ko": "새 기여 작업"
+  },
+  {
+    "zh": "任务标题",
+    "en": "Task title",
+    "ja": "タスク名",
+    "ko": "작업 제목"
+  },
+  {
+    "zh": "任务说明",
+    "en": "Description",
+    "ja": "説明",
+    "ko": "설명"
+  },
+  {
+    "zh": "状态",
+    "en": "Status",
+    "ja": "状態",
+    "ko": "상태"
+  },
+  {
+    "zh": "待开始",
+    "en": "To do",
+    "ja": "未着手",
+    "ko": "할 일"
+  },
+  {
+    "zh": "进行中",
+    "en": "In progress",
+    "ja": "進行中",
+    "ko": "진행 중"
+  },
+  {
+    "zh": "已完成",
+    "en": "Done",
+    "ja": "完了",
+    "ko": "완료"
+  },
+  {
+    "zh": "删除任务",
+    "en": "Delete task",
+    "ja": "タスクを削除",
+    "ko": "작업 삭제"
+  },
+  {
+    "zh": "保存任务",
+    "en": "Save task",
+    "ja": "タスクを保存",
+    "ko": "작업 저장"
+  },
+  {
+    "zh": "Common Ground · 社区贡献看板，探索开源与云端社区的可复用交互网站模板。",
+    "en": "Common Ground · Contribution board. Reusable interactive templates for open-source and cloud communities.",
+    "ja": "Common Ground · 貢献ボード。オープンソースとクラウド向けの再利用可能なテンプレート。",
+    "ko": "Common Ground · 기여 보드. 오픈소스와 클라우드 커뮤니티를 위한 재사용 가능한 인터랙티브 템플릿."
+  },
+  {
+    "zh": "搜索任务或分类…",
+    "en": "Search tasks or categories…",
+    "ja": "タスクや分類を検索…",
+    "ko": "작업 또는 분류 검색…"
+  },
+  {
+    "zh": "例如：完善快速入门文档",
+    "en": "For example: improve the quickstart guide",
+    "ja": "例：クイックスタートを改善する",
+    "ko": "예: 빠른 시작 가이드 개선"
+  },
+  {
+    "zh": "写下一个具体的下一步",
+    "en": "Describe a concrete next step",
+    "ja": "具体的な次の一歩を記入",
+    "ko": "구체적인 다음 단계 입력"
+  },
+  {
+    "zh": "Pulse · 开源热度看板 · Template Lab",
+    "en": "Pulse · Community analytics · Template Lab",
+    "ja": "Pulse · コミュニティ分析 · Template Lab",
+    "ko": "Pulse · 커뮤니티 분석 · Template Lab"
+  },
+  {
+    "zh": "数据说明",
+    "en": "About this data",
+    "ja": "データについて",
+    "ko": "데이터 안내"
+  },
+  {
+    "zh": "开源社区，正在发生。",
+    "en": "Signals from the open-source community.",
+    "ja": "オープンソースの今を知る。",
+    "ko": "오픈소스 커뮤니티의 지금."
+  },
+  {
+    "zh": "精选 AI、自动化与云开发项目的公开指标。这里是样本观察，不是全站排行榜。",
+    "en": "Public metrics for selected AI, automation and cloud projects. A sample to explore, not a platform-wide ranking.",
+    "ja": "厳選した AI、自動化、クラウド開発の公開指標です。全体ランキングではありません。",
+    "ko": "선별한 AI, 자동화, 클라우드 프로젝트의 공개 지표이며 전체 순위가 아닙니다."
+  },
+  {
+    "zh": "刷新 GitHub 数据",
+    "en": "Refresh GitHub data",
+    "ja": "GitHub データを更新",
+    "ko": "GitHub 데이터 새로고침"
+  },
+  {
+    "zh": "导出 CSV",
+    "en": "Export CSV",
+    "ja": "CSV を出力",
+    "ko": "CSV 내보내기"
+  },
+  {
+    "zh": "正在加载已核验的数据快照…",
+    "en": "Loading the verified snapshot…",
+    "ja": "確認済みスナップショットを読み込み中…",
+    "ko": "확인된 스냅샷을 불러오는 중…"
+  },
+  {
+    "zh": "项目关注度",
+    "en": "Repository attention",
+    "ja": "リポジトリへの注目",
+    "ko": "저장소 관심도"
+  },
+  {
+    "zh": "Stars · 累计值",
+    "en": "Stars · all time",
+    "ja": "スター · 累計",
+    "ko": "스타 · 누적"
+  },
+  {
+    "zh": "主题分布",
+    "en": "Topic breakdown",
+    "ja": "テーマ別内訳",
+    "ko": "주제별 분포"
+  },
+  {
+    "zh": "当前筛选结果中的项目数量",
+    "en": "Repository count in the current selection",
+    "ja": "現在の絞り込み結果の件数",
+    "ko": "현재 필터의 프로젝트 수"
+  },
+  {
+    "zh": "Stars 代表累计关注，不代表增长速度、质量或投资价值。",
+    "en": "Stars indicate cumulative attention, not growth, quality or investment value.",
+    "ja": "スターは累計の関心を示すもので、成長、品質、投資価値ではありません。",
+    "ko": "스타는 누적 관심도이며 성장률, 품질, 투자 가치를 의미하지 않습니다."
+  },
+  {
+    "zh": "仓库观察列表",
+    "en": "Repository watchlist",
+    "ja": "リポジトリ一覧",
+    "ko": "저장소 관찰 목록"
+  },
+  {
+    "zh": "搜索仓库",
+    "en": "Search repositories",
+    "ja": "リポジトリを検索",
+    "ko": "저장소 검색"
+  },
+  {
+    "zh": "项目分类",
+    "en": "Repository category",
+    "ja": "プロジェクト分類",
+    "ko": "프로젝트 분류"
+  },
+  {
+    "zh": "全部主题",
+    "en": "All topics",
+    "ja": "すべてのテーマ",
+    "ko": "모든 주제"
+  },
+  {
+    "zh": "排序",
+    "en": "Sort by",
+    "ja": "並び順",
+    "ko": "정렬"
+  },
+  {
+    "zh": "Stars 从高到低",
+    "en": "Most stars",
+    "ja": "スター数順",
+    "ko": "스타 많은 순"
+  },
+  {
+    "zh": "Forks 从高到低",
+    "en": "Most forks",
+    "ja": "フォーク数順",
+    "ko": "포크 많은 순"
+  },
+  {
+    "zh": "名称 A–Z",
+    "en": "Name A–Z",
+    "ja": "名前 A–Z",
+    "ko": "이름 A–Z"
+  },
+  {
+    "zh": "项目 / 来源",
+    "en": "Repository / source",
+    "ja": "プロジェクト / 出典",
+    "ko": "프로젝트 / 출처"
+  },
+  {
+    "zh": "开放 Issues + PR",
+    "en": "Open issues + PRs",
+    "ja": "未解決 Issue + PR",
+    "ko": "열린 이슈 + PR"
+  },
+  {
+    "zh": "许可证标识",
+    "en": "License identifier",
+    "ja": "ライセンス識別子",
+    "ko": "라이선스 식별자"
+  },
+  {
+    "zh": "没有匹配的项目，试试清除搜索条件。",
+    "en": "No matching repositories. Try clearing your filters.",
+    "ja": "一致する項目がありません。条件を変更してください。",
+    "ko": "일치하는 프로젝트가 없습니다. 필터를 지워보세요."
+  },
+  {
+    "zh": "Pulse · 开源热度看板，探索开源与云端社区的可复用交互网站模板。",
+    "en": "Pulse · Community analytics. Reusable interactive templates for open-source and cloud communities.",
+    "ja": "Pulse · コミュニティ分析。オープンソースとクラウド向けの再利用可能なテンプレート。",
+    "ko": "Pulse · 커뮤니티 분석. 오픈소스와 클라우드 커뮤니티를 위한 재사용 가능한 인터랙티브 템플릿."
+  },
+  {
+    "zh": "项目星标对比",
+    "en": "Repository stars comparison",
+    "ja": "スター数の比較",
+    "ko": "저장소 스타 비교"
+  },
+  {
+    "zh": "搜索名称、简介…",
+    "en": "Search names or descriptions…",
+    "ja": "名前や説明を検索…",
+    "ko": "이름 또는 설명 검색…"
+  },
+  {
+    "zh": "使用与 GitHub 维护指南 · Template Lab",
+    "en": "Usage & GitHub maintenance · Template Lab",
+    "ja": "使い方と GitHub 運用 · Template Lab",
+    "ko": "사용법 및 GitHub 유지보수 · Template Lab"
+  },
+  {
+    "zh": "让模板，持续生长。",
+    "en": "Built to keep evolving.",
+    "ja": "テンプレートを、育て続ける。",
+    "ko": "계속 발전하는 템플릿."
+  },
+  {
+    "zh": "四套独立用途的页面，共享一个静态站点。无构建依赖，无数据库，内容与本机项目无关。",
+    "en": "Four purpose-built pages in one static site. No build dependencies, no database and no connection to local projects.",
+    "ja": "4つの用途別ページをひとつの静的サイトに。外部ビルド依存、データベース、ローカルとの接続はありません。",
+    "ko": "하나의 정적 사이트에 네 가지 목적별 페이지를 담았습니다. 외부 빌드 의존성, 데이터베이스, 로컬 프로젝트 연결이 없습니다."
+  },
+  {
+    "zh": "四套模板的边界",
+    "en": "What each template does",
+    "ja": "各テンプレートの範囲",
+    "ko": "각 템플릿의 범위"
+  },
+  {
+    "zh": "原创产品发布模板；工作流为本地交互示例，不调用 AI。",
+    "en": "An original launch template. The workflow is a local example and does not call AI.",
+    "ja": "オリジナルの紹介テンプレート。ワークフローはローカルの例で AI は呼び出しません。",
+    "ko": "오리지널 출시 템플릿입니다. 워크플로는 로컬 예시이며 AI를 호출하지 않습니다."
+  },
+  {
+    "zh": "读取公开 GitHub 仓库指标。发布时快照和手动刷新均显示时间；没有历史增长数据，不代表 GitHub Trending。",
+    "en": "Shows public repository metrics with snapshot and refresh timestamps. No historical growth data; this is not GitHub Trending.",
+    "ja": "公開指標と取得日時を表示。増加履歴はなく、GitHub Trending ではありません。",
+    "ko": "공개 저장소 지표와 갱신 시간을 표시합니다. 과거 증가율이나 GitHub Trending 순위가 아닙니다."
+  },
+  {
+    "zh": "个人任务保存在当前浏览器，可导出导入；不连接 GitHub Issue，不是多人协作服务。",
+    "en": "Personal tasks are stored in this browser with import and export. No GitHub Issues sync or shared workspace.",
+    "ja": "個人タスクをブラウザー内に保存し、読み込みと出力に対応。GitHub Issues 同期や共同編集はありません。",
+    "ko": "개인 작업을 브라우저에 저장하고 가져오기와 내보내기를 지원합니다. GitHub 이슈 동기화나 공동 작업 공간은 없습니다."
+  },
+  {
+    "zh": "官方入口目录，支持浏览器内收藏与自定义链接；不是公开投稿平台。",
+    "en": "A directory of official links with browser-local favorites and custom entries. Not a public submission platform.",
+    "ja": "公式リンク集。お気に入りと独自リンクはブラウザー内で管理。公開投稿サービスではありません。",
+    "ko": "공식 링크 모음이며 즐겨찾기와 개인 링크는 브라우저에 저장됩니다. 공개 투고 플랫폼은 아닙니다."
+  },
+  {
+    "zh": "GitHub 维护流程",
+    "en": "The GitHub maintenance workflow",
+    "ja": "GitHub での運用手順",
+    "ko": "GitHub 유지보수 절차"
+  },
+  {
+    "zh": "将源码放进你指定的 GitHub 仓库，用分支、Pull Request 与检查管理修改。合并后，通过 Codex 的 Sites 工具同步同一份代码、保存版本并部署。GitHub 推送和 Sites 发布是两个步骤。",
+    "en": "Keep source in your chosen GitHub repository and review changes with branches, pull requests and checks. After merging, sync the exact code through Codex Sites, save a version and deploy. A GitHub push and a Sites deployment are separate steps.",
+    "ja": "指定の GitHub リポジトリでブランチ、PR、チェックを管理します。マージ後に Codex Sites で同じコードを同期し、版を保存して公開します。GitHub への push と Sites の公開は別の手順です。",
+    "ko": "지정한 GitHub 저장소에서 브랜치, PR, 검사를 관리하세요. 병합 후 Codex Sites로 같은 코드를 동기화하고 버전을 저장해 배포합니다. GitHub 푸시와 Sites 배포는 별도 단계입니다."
+  },
+  {
+    "zh": "当前模板附带 GitHub Actions 检查配置；尚未绑定 GitHub 仓库，也没有配置 GitHub 自动部署。Sites 的短期发布凭证不能作为长期 GitHub Secret 使用。",
+    "en": "GitHub Actions checks are included, but no GitHub repository or automatic deployment is connected yet. Short-lived Sites credentials must not be used as permanent GitHub secrets.",
+    "ja": "Actions のチェック設定は付属していますが、リポジトリや自動公開は未接続です。Sites の短期認証情報を長期 Secret として使わないでください。",
+    "ko": "Actions 검사 설정은 포함되어 있지만 GitHub 저장소와 자동 배포는 아직 연결되지 않았습니다. 단기 Sites 자격 증명을 장기 GitHub 비밀로 사용하지 마세요."
+  },
+  {
+    "zh": "从源文件到发布",
+    "en": "From source to deployment",
+    "ja": "ソースから公開まで",
+    "ko": "소스에서 배포까지"
+  },
+  {
+    "zh": "修改页面与交互；",
+    "en": " contains pages and interactions; ",
+    "ja": " はページと操作を管理し、",
+    "ko": "에서 페이지와 동작을 수정하고,"
+  },
+  {
+    "zh": "维护精选资源和仓库快照。执行",
+    "en": " contains curated resources and repository snapshots. Run ",
+    "ja": " は厳選リソースとスナップショットを管理します。実行：",
+    "ko": "에서 리소스와 스냅샷을 관리합니다. 실행:"
+  },
+  {
+    "zh": "后，使用 Sites 保存并部署。",
+    "en": ", then save and deploy with Sites.",
+    "ja": " を実行してから、Sites で保存・公開します。",
+    "ko": " 실행 후 Sites로 저장 및 배포하세요."
+  },
+  {
+    "zh": "维护热度快照时，执行",
+    "en": "To update the repository snapshot, run ",
+    "ja": "スナップショット更新には次を実行：",
+    "ko": "저장소 스냅샷을 갱신하려면 실행:"
+  },
+  {
+    "zh": "。这只访问固定名单中的 GitHub 公共 API，不发送你的账号凭证。",
+    "en": ". This calls only the fixed list of public GitHub APIs and sends no account credentials.",
+    "ja": "。固定の公開 GitHub API のみにアクセスし、アカウント認証情報は送信しません。",
+    "ko": ". 고정 목록의 GitHub 공개 API만 호출하며 계정 자격 증명을 보내지 않습니다."
+  },
+  {
+    "zh": "社区灵感与来源",
+    "en": "Community inspiration and sources",
+    "ja": "コミュニティの参考と出典",
+    "ko": "커뮤니티 참고 자료와 출처"
+  },
+  {
+    "zh": "模板为原创实现，没有复制下列项目的源码或品牌。社区案例帮助确定用途与信息结构：",
+    "en": "These are original implementations. No source code or branding was copied from the following projects; they informed the use cases and information structure.",
+    "ja": "オリジナルの実装です。以下のコードやブランドは複製せず、用途と情報構成の参考にしました。",
+    "ko": "오리지널 구현입니다. 아래 프로젝트의 코드나 브랜드를 복사하지 않았으며 용도와 정보 구조를 참고했습니다."
+  },
+  {
+    "zh": "shadcn-admin：管理后台与数据界面",
+    "en": "shadcn-admin: admin and data interfaces",
+    "ja": "shadcn-admin：管理・データ画面",
+    "ko": "shadcn-admin: 관리 및 데이터 인터페이스"
+  },
+  {
+    "zh": "AstroWind：产品与内容宣传页面",
+    "en": "AstroWind: product and content pages",
+    "ja": "AstroWind：製品・コンテンツ紹介",
+    "ko": "AstroWind: 제품 및 콘텐츠 페이지"
+  },
+  {
+    "zh": "ShadcnStore：宣传页与看板组合",
+    "en": "ShadcnStore: launch pages and dashboards",
+    "ja": "ShadcnStore：紹介ページとダッシュボード",
+    "ko": "ShadcnStore: 출시 페이지와 대시보드"
+  },
+  {
+    "zh": "OpenAI Sites：托管和发布说明",
+    "en": "OpenAI Sites: hosting and publishing",
+    "ja": "OpenAI Sites：ホスティングと公開",
+    "ko": "OpenAI Sites: 호스팅 및 게시"
+  },
+  {
+    "zh": "数据与隐私",
+    "en": "Data and privacy",
+    "ja": "データとプライバシー",
+    "ko": "데이터 및 개인정보"
+  },
+  {
+    "zh": "本站不提供账号注册、不收集表单、不保存访问者的任务或收藏到服务端。手动刷新看板会从浏览器请求 api.github.com，受 GitHub 公共 API 的限流和网络条件影响。清除浏览器数据会移除本地任务和收藏，重要内容请先导出。",
+    "en": "This site has no registration and stores no visitor tasks or favorites on a server. Refreshing analytics calls api.github.com from your browser and may hit network or API limits. Clearing browser data removes local tasks and favorites; export important tasks first.",
+    "ja": "登録機能はなく、タスクやお気に入りをサーバーに保存しません。更新時はブラウザーから api.github.com を呼び出し、通信や API 制限の影響を受けます。ブラウザーデータを消去する前に、必要なタスクを出力してください。",
+    "ko": "회원 가입이 없으며 작업이나 즐겨찾기를 서버에 저장하지 않습니다. 갱신 시 브라우저가 api.github.com에 요청하며 네트워크 및 API 제한이 적용됩니다. 브라우저 데이터를 지우면 로컬 데이터가 삭제되므로 중요한 작업을 먼저 내보내세요."
+  },
+  {
+    "zh": "使用与 GitHub 维护指南，探索开源与云端社区的可复用交互网站模板。",
+    "en": "Usage & GitHub maintenance. Reusable interactive templates for open-source and cloud communities.",
+    "ja": "使い方と GitHub 運用。オープンソースとクラウド向けの再利用可能なテンプレート。",
+    "ko": "사용법 및 GitHub 유지보수. 오픈소스와 클라우드 커뮤니티를 위한 재사용 가능한 인터랙티브 템플릿."
+  },
+  {
+    "zh": "开源灵感，四种打开方式 · Template Lab",
+    "en": "Open-source ideas, four ways to build · Template Lab",
+    "ja": "オープンソースを4つの形に · Template Lab",
+    "ko": "오픈소스의 네 가지 활용법 · Template Lab"
+  },
+  {
+    "zh": "开源灵感，",
+    "en": "Open-source ideas.",
+    "ja": "オープンソースの発想を。",
+    "ko": "오픈소스 아이디어,"
+  },
+  {
+    "zh": "四种打开方式。",
+    "en": "Four ways to build.",
+    "ja": "4つの形に。",
+    "ko": "네 가지 활용법."
+  },
+  {
+    "zh": "从一次产品发布，到每天的社区协作。四套不同用途的交互模板，为 AI、云端与开源项目准备，也为你的下一个想法留白。",
+    "en": "From your next launch to everyday community work. Four interactive templates for AI, cloud and open-source ideas, ready to make your own.",
+    "ja": "次のリリースから日々のコミュニティ活動まで。AI、クラウド、オープンソース向けの4つのテンプレートを、あなたのアイデアに。",
+    "ko": "제품 출시부터 일상적인 커뮤니티 활동까지. AI, 클라우드, 오픈소스를 위한 네 가지 인터랙티브 템플릿을 만나보세요."
+  },
+  {
+    "zh": "探索全部模板",
+    "en": "Explore the templates",
+    "ja": "テンプレートを見る",
+    "ko": "템플릿 살펴보기"
+  },
+  {
+    "zh": "GitHub 维护指南",
+    "en": "GitHub maintenance",
+    "ja": "GitHub 運用ガイド",
+    "ko": "GitHub 유지보수"
+  },
+  {
+    "zh": "Fieldnotes · 开源发布页",
+    "en": "Fieldnotes · Launch page",
+    "ja": "Fieldnotes · リリースページ",
+    "ko": "Fieldnotes · 출시 페이지"
+  },
+  {
+    "zh": "产品叙事、交互演示、发布计划与 FAQ。适合把一个开源想法介绍清楚。",
+    "en": "A clear story, interactive demo, roadmap and FAQ for your next open-source launch.",
+    "ja": "紹介、デモ、ロードマップ、FAQ で、プロジェクトの価値を伝えます。",
+    "ko": "제품 소개, 인터랙티브 데모, 로드맵과 FAQ로 오픈소스 아이디어를 소개하세요."
+  },
+  {
+    "zh": "产品宣传",
+    "en": "Product launch",
+    "ja": "製品紹介",
+    "ko": "제품 소개"
+  },
+  {
+    "zh": "演示切换",
+    "en": "Interactive demo",
+    "ja": "インタラクティブデモ",
+    "ko": "인터랙티브 데모"
+  },
+  {
+    "zh": "Pulse · 开源热度看板",
+    "en": "Pulse · Community analytics",
+    "ja": "Pulse · コミュニティ分析",
+    "ko": "Pulse · 커뮤니티 분석"
+  },
+  {
+    "zh": "精选仓库的 Stars、Forks 与社区指标。支持筛选、排序、实时刷新和导出。",
+    "en": "Explore selected repositories through stars, forks and community metrics. Filter, refresh and export.",
+    "ja": "厳選リポジトリのスター、フォークなどを表示。絞り込み、更新、出力に対応。",
+    "ko": "선별한 저장소의 스타, 포크, 커뮤니티 지표를 필터링하고 갱신하거나 내보내세요."
+  },
+  {
+    "zh": "GitHub 公共数据",
+    "en": "Public GitHub data",
+    "ja": "GitHub 公開データ",
+    "ko": "GitHub 공개 데이터"
+  },
+  {
+    "zh": "CSV 导出",
+    "en": "CSV export",
+    "ja": "CSV 出力",
+    "ko": "CSV 내보내기"
+  },
+  {
+    "zh": "Common Ground · 贡献看板",
+    "en": "Common Ground · Contribution board",
+    "ja": "Common Ground · 貢献ボード",
+    "ko": "Common Ground · 기여 보드"
+  },
+  {
+    "zh": "把社区贡献拆成可执行任务。新增、编辑、推进进度，数据保存在当前浏览器。",
+    "en": "Turn community contributions into actionable tasks. Plan, edit and track progress in your browser.",
+    "ja": "コミュニティへの貢献をタスクに分解。作成、編集、進捗管理をブラウザーで。",
+    "ko": "커뮤니티 기여를 실행 가능한 작업으로 정리하고 브라우저에서 관리하세요."
+  },
+  {
+    "zh": "本地保存",
+    "en": "Saved in your browser",
+    "ja": "ブラウザーに保存",
+    "ko": "브라우저에 저장"
+  },
+  {
+    "zh": "JSON 备份",
+    "en": "JSON backup",
+    "ja": "JSON バックアップ",
+    "ko": "JSON 백업"
+  },
+  {
+    "zh": "Open Atlas · 工具导航",
+    "en": "Open Atlas · Resource directory",
+    "ja": "Open Atlas · リソース集",
+    "ko": "Open Atlas · 리소스 모음"
+  },
+  {
+    "zh": "精选 AI、云开发与前端资源。分类搜索、收藏与自定义链接，让信息更容易找到。",
+    "en": "A curated directory for AI, cloud and frontend builders. Search, save favorites and add your own links.",
+    "ja": "AI、クラウド、フロントエンドの厳選リソース。検索、保存、独自リンクの追加に対応。",
+    "ko": "AI, 클라우드, 프런트엔드 리소스를 검색하고 즐겨찾기와 개인 링크를 추가하세요."
+  },
+  {
+    "zh": "社区资源",
+    "en": "Community resources",
+    "ja": "コミュニティリソース",
+    "ko": "커뮤니티 리소스"
+  },
+  {
+    "zh": "个人收藏",
+    "en": "Personal favorites",
+    "ja": "お気に入り",
+    "ko": "개인 즐겨찾기"
+  },
+  {
+    "zh": "选择一个起点",
+    "en": "Pick your starting point",
+    "ja": "出発点を選ぶ",
+    "ko": "시작점 선택"
+  },
+  {
+    "zh": "四套模板均可直接体验，内容围绕公共社区，不包含本机工程信息。",
+    "en": "Explore all four templates, built around public communities and independent of local projects.",
+    "ja": "公開コミュニティを題材にした4つのテンプレート。ローカルプロジェクトの情報は含みません。",
+    "ko": "공개 커뮤니티를 주제로 한 네 가지 템플릿이며 로컬 프로젝트와 무관합니다."
+  },
+  {
+    "zh": "换成你的内容",
+    "en": "Make it your own",
+    "ja": "自分のコンテンツに",
+    "ko": "나만의 콘텐츠로"
+  },
+  {
+    "zh": "源码使用原生 HTML、CSS 和 JavaScript，数据与样式都可独立修改。",
+    "en": "Plain HTML, CSS and JavaScript. Customize the content, data and visual style independently.",
+    "ja": "HTML、CSS、JavaScript のシンプルな構成。コンテンツ、データ、スタイルを個別に変更できます。",
+    "ko": "순수 HTML, CSS, JavaScript로 콘텐츠, 데이터, 스타일을 각각 수정할 수 있습니다."
+  },
+  {
+    "zh": "持续迭代",
+    "en": "Keep improving",
+    "ja": "継続的に改善",
+    "ko": "지속적인 개선"
+  },
+  {
+    "zh": "用 GitHub 管理版本和检查，再通过 Sites 发布，保留每次变更记录。",
+    "en": "Manage versions and checks on GitHub, then publish with Sites and keep a clear change history.",
+    "ja": "GitHub でバージョンとチェックを管理し、Sites から公開します。",
+    "ko": "GitHub에서 버전과 검사를 관리한 뒤 Sites로 게시하고 변경 기록을 남기세요."
+  },
+  {
+    "zh": "开源灵感，四种打开方式，探索开源与云端社区的可复用交互网站模板。",
+    "en": "Open-source ideas, four ways to build. Reusable interactive templates for open-source and cloud communities.",
+    "ja": "オープンソースを4つの形に。オープンソースとクラウド向けの再利用可能なテンプレート。",
+    "ko": "오픈소스의 네 가지 활용법. 오픈소스와 클라우드 커뮤니티를 위한 재사용 가능한 인터랙티브 템플릿."
+  },
+  {
+    "zh": "四套模板",
+    "en": "Four templates",
+    "ja": "4つのテンプレート",
+    "ko": "네 가지 템플릿"
+  },
+  {
+    "zh": "Fieldnotes · 开源发布页 · Template Lab",
+    "en": "Fieldnotes · Launch page · Template Lab",
+    "ja": "Fieldnotes · リリースページ · Template Lab",
+    "ko": "Fieldnotes · 출시 페이지 · Template Lab"
+  },
+  {
+    "zh": "开源项目宣传模板",
+    "en": "An open-source launch template",
+    "ja": "オープンソース紹介テンプレート",
+    "ko": "오픈소스 출시 템플릿"
+  },
+  {
+    "zh": "把灵感写下来，",
+    "en": "Capture the idea.",
+    "ja": "アイデアを記録し、",
+    "ko": "아이디어를 기록하고,"
+  },
+  {
+    "zh": "把下一步做出来。",
+    "en": "Build what comes next.",
+    "ja": "次の一歩を形に。",
+    "ko": "다음 단계를 만드세요."
+  },
+  {
+    "zh": "为 AI 工作流、云工具和社区项目提供一个清晰的发布起点。让人看懂你的想法，再决定如何参与。",
+    "en": "A thoughtful starting point for AI workflows, cloud tools and community projects. Help people understand your idea and find their way in.",
+    "ja": "AI ワークフロー、クラウドツール、コミュニティプロジェクトをわかりやすく紹介し、参加のきっかけを作ります。",
+    "ko": "AI 워크플로, 클라우드 도구, 커뮤니티 프로젝트를 명확하게 소개하고 참여 방법을 안내하세요."
+  },
+  {
+    "zh": "体验交互演示",
+    "en": "Try the interactive demo",
+    "ja": "デモを試す",
+    "ko": "인터랙티브 데모 체험"
+  },
+  {
+    "zh": "探索社区项目",
+    "en": "Explore community projects",
+    "ja": "コミュニティを探す",
+    "ko": "커뮤니티 프로젝트 탐색"
+  },
+  {
+    "zh": "Fieldnotes 为示例品牌；此页不代表真实产品已发布。",
+    "en": "Fieldnotes is a demo brand, not an announcement of an actual product.",
+    "ja": "Fieldnotes はサンプルブランドです。実在製品のリリース告知ではありません。",
+    "ko": "Fieldnotes는 예시 브랜드이며 실제 제품 출시를 알리는 페이지가 아닙니다."
+  },
+  {
+    "zh": "预览",
+    "en": "Preview",
+    "ja": "プレビュー",
+    "ko": "미리 보기"
+  },
+  {
+    "zh": "◇ 收集",
+    "en": "◇ Collect",
+    "ja": "◇ 集める",
+    "ko": "◇ 수집"
+  },
+  {
+    "zh": "社区与开源资源",
+    "en": "Community and open source",
+    "ja": "コミュニティとオープンソース",
+    "ko": "커뮤니티와 오픈소스"
+  },
+  {
+    "zh": "▦ 整理",
+    "en": "▦ Curate",
+    "ja": "▦ 整理する",
+    "ko": "▦ 정리"
+  },
+  {
+    "zh": "分类与摘要",
+    "en": "Categories and summaries",
+    "ja": "分類と要約",
+    "ko": "분류와 요약"
+  },
+  {
+    "zh": "无需账号",
+    "en": "No account needed",
+    "ja": "アカウント不要",
+    "ko": "계정 불필요"
+  },
+  {
+    "zh": "适合你的下一个项目",
+    "en": "Made for your next project",
+    "ja": "次のプロジェクトに",
+    "ko": "다음 프로젝트를 위해"
+  },
+  {
+    "zh": "让价值，比功能列表更清晰。",
+    "en": "Lead with value, not a feature list.",
+    "ja": "機能より先に、価値を伝える。",
+    "ko": "기능 목록보다 가치를 먼저."
+  },
+  {
+    "zh": "讲清一个具体问题",
+    "en": "Start with a real problem",
+    "ja": "具体的な課題から",
+    "ko": "구체적인 문제에서 시작"
+  },
+  {
+    "zh": "从访客正在经历的场景开始，说明项目解决什么，以及他们可以如何尝试。",
+    "en": "Start with a familiar situation. Explain the problem your project solves and how visitors can try it.",
+    "ja": "身近な場面から、解決する課題と試し方を説明します。",
+    "ko": "방문자가 겪는 상황에서 시작해 해결할 문제와 체험 방법을 설명하세요."
+  },
+  {
+    "zh": "给出可探索的示例",
+    "en": "Make the idea tangible",
+    "ja": "試せる例を用意する",
+    "ko": "직접 살펴볼 수 있는 예시"
+  },
+  {
+    "zh": "用可切换的工作流演示承接介绍。先展示体验，再引导读文档或访问仓库。",
+    "en": "Let visitors explore a workflow before sending them to the docs or repository.",
+    "ja": "ワークフローを試してから、ドキュメントやリポジトリへ案内します。",
+    "ko": "워크플로를 먼저 체험한 후 문서나 저장소를 방문하도록 안내하세요."
+  },
+  {
+    "zh": "邀请社区一起完善",
+    "en": "Invite the community in",
+    "ja": "コミュニティと育てる",
+    "ko": "커뮤니티와 함께 개선"
+  },
+  {
+    "zh": "把使用说明、项目边界和下一步放在一起，让参与者知道从哪里开始。",
+    "en": "Put usage instructions, project boundaries and next steps together so contributors know where to begin.",
+    "ja": "使い方、対応範囲、次のステップをまとめ、参加しやすくします。",
+    "ko": "사용법, 프로젝트 범위, 다음 단계를 모아 기여자가 쉽게 시작하도록 하세요."
+  },
+  {
+    "zh": "一个好想法，",
+    "en": "A good idea deserves",
+    "ja": "よいアイデアには、",
+    "ko": "좋은 아이디어에는"
+  },
+  {
+    "zh": "值得清晰的路线。",
+    "en": "a clear path forward.",
+    "ja": "明確な道筋を。",
+    "ko": "명확한 방향이 필요합니다."
+  },
+  {
+    "zh": "以下为模板的示例发布计划。请在正式使用时替换为真实版本与时间。",
+    "en": "This is an illustrative roadmap. Replace it with your actual versions and dates before launch.",
+    "ja": "以下はサンプルの計画です。公開前に実際のバージョンと日付に置き換えてください。",
+    "ko": "예시 출시 계획입니다. 실제 사용 전에 정확한 버전과 일정으로 바꾸세요."
+  },
+  {
+    "zh": "在贡献看板里规划任务",
+    "en": "Plan tasks on the contribution board",
+    "ja": "貢献ボードで計画する",
+    "ko": "기여 보드에서 작업 계획"
+  },
+  {
+    "zh": "准备",
+    "en": "Prepare",
+    "ja": "準備",
+    "ko": "준비"
+  },
+  {
+    "zh": "定义最小可用体验",
+    "en": "Define the smallest useful experience",
+    "ja": "最小限の体験を定義する",
+    "ko": "최소한의 유용한 경험 정의"
+  },
+  {
+    "zh": "说明目标用户、核心流程和不支持的场景。",
+    "en": "Describe the audience, core workflow and unsupported scenarios.",
+    "ja": "対象ユーザー、基本フロー、非対応の用途を説明します。",
+    "ko": "대상 사용자, 핵심 흐름, 지원하지 않는 시나리오를 설명하세요."
+  },
+  {
+    "zh": "发布",
+    "en": "Launch",
+    "ja": "公開",
+    "ko": "출시"
+  },
+  {
+    "zh": "开放示例与文档",
+    "en": "Share examples and documentation",
+    "ja": "例とドキュメントを公開する",
+    "ko": "예시와 문서 공개"
+  },
+  {
+    "zh": "提供运行说明、许可信息与可复现的使用示例。",
+    "en": "Provide setup instructions, licensing information and reproducible examples.",
+    "ja": "実行手順、ライセンス情報、再現可能な例を用意します。",
+    "ko": "실행 방법, 라이선스 정보, 재현 가능한 예시를 제공하세요."
+  },
+  {
+    "zh": "迭代",
+    "en": "Iterate",
+    "ja": "改善",
+    "ko": "개선"
+  },
+  {
+    "zh": "收集反馈，保持透明",
+    "en": "Listen, learn and stay transparent",
+    "ja": "意見を聞き、透明性を保つ",
+    "ko": "피드백을 듣고 투명하게 운영"
+  },
+  {
+    "zh": "记录变更、处理问题，让贡献者了解项目方向。",
+    "en": "Document changes, address issues and help contributors understand the direction.",
+    "ja": "変更を記録し、課題に対応して、方向性を共有します。",
+    "ko": "변경을 기록하고 문제를 해결하며 프로젝트 방향을 공유하세요."
+  },
+  {
+    "zh": "开始之前，你可能想知道。",
+    "en": "A few things to know before you start.",
+    "ja": "始める前に知っておきたいこと。",
+    "ko": "시작하기 전에 알아두세요."
+  },
+  {
+    "zh": "这个页面已经接入 AI 或云服务了吗？",
+    "en": "Is this connected to an AI or cloud service?",
+    "ja": "AI やクラウドに接続していますか？",
+    "ko": "AI 또는 클라우드 서비스에 연결되어 있나요?"
+  },
+  {
+    "zh": "没有。它是可复用的产品宣传模板，演示在浏览器本地运行。正式产品需要另外接入真实后端和服务。",
+    "en": "No. This is a reusable launch template with a browser-only demo. A real product needs its own backend and service integrations.",
+    "ja": "いいえ。デモはブラウザー内で動きます。実際の製品には別途バックエンドとサービス接続が必要です。",
+    "ko": "아니요. 브라우저에서 동작하는 출시 템플릿입니다. 실제 제품에는 별도의 백엔드와 서비스 연동이 필요합니다."
+  },
+  {
+    "zh": "可以换成自己的项目吗？",
+    "en": "Can I use this for my own project?",
+    "ja": "自分のプロジェクトに使えますか？",
+    "ko": "내 프로젝트에 사용할 수 있나요?"
+  },
+  {
+    "zh": "可以。替换文案、项目链接、示例和品牌颜色即可。请勿把示例路线当作真实发布承诺。",
+    "en": "Yes. Replace the copy, project links, examples and brand colors. The sample roadmap is not a release commitment.",
+    "ja": "はい。文章、リンク、例、ブランドカラーを変更してください。サンプル計画は実際の約束ではありません。",
+    "ko": "네. 문구, 링크, 예시, 브랜드 색상을 교체하세요. 예시 로드맵은 실제 출시 약속이 아닙니다."
+  },
+  {
+    "zh": "如何参与真实社区项目？",
+    "en": "How do I contribute to a real project?",
+    "ja": "実際のプロジェクトに参加するには？",
+    "ko": "실제 프로젝트에 어떻게 기여하나요?"
+  },
+  {
+    "zh": "先阅读项目的 README、许可证和 CONTRIBUTING，再从文档或 good first issue 开始。",
+    "en": "Read the README, license and CONTRIBUTING first, then start with documentation or a good first issue.",
+    "ja": "README、ライセンス、CONTRIBUTING を読み、文書の改善や good first issue から始めましょう。",
+    "ko": "README, 라이선스, CONTRIBUTING을 읽고 문서나 good first issue부터 시작하세요."
+  },
+  {
+    "zh": "查看精选资源",
+    "en": "Browse curated resources",
+    "ja": "厳選リソースを見る",
+    "ko": "선별된 리소스 보기"
+  },
+  {
+    "zh": "给下一个想法，一个好开场。",
+    "en": "Give your next idea a strong start.",
+    "ja": "次のアイデアに、よいスタートを。",
+    "ko": "다음 아이디어의 좋은 시작."
+  },
+  {
+    "zh": "从一个清晰的页面开始，让合适的人看见。",
+    "en": "Start with a clear page. Help the right people discover it.",
+    "ja": "わかりやすいページで、必要な人に届けましょう。",
+    "ko": "명확한 페이지로 필요한 사람들에게 알리세요."
+  },
+  {
+    "zh": "查看模板使用指南",
+    "en": "Read the template guide",
+    "ja": "使い方を見る",
+    "ko": "템플릿 가이드 보기"
+  },
+  {
+    "zh": "试一试信息整理流程",
+    "en": "Try a curation workflow",
+    "ja": "情報整理フローを試す",
+    "ko": "정보 정리 워크플로 체험"
+  },
+  {
+    "zh": "本地交互演示，不调用模型或第三方 API。",
+    "en": "A local interactive demo. No models or third-party APIs are called.",
+    "ja": "ローカルデモです。モデルや外部 API は呼び出しません。",
+    "ko": "로컬 인터랙티브 데모이며 모델이나 외부 API를 호출하지 않습니다."
+  },
+  {
+    "zh": "选择场景",
+    "en": "Choose a scenario",
+    "ja": "シナリオを選択",
+    "ko": "시나리오 선택"
+  },
+  {
+    "zh": "开源周报",
+    "en": "Open-source digest",
+    "ja": "オープンソース週報",
+    "ko": "오픈소스 주간 소식"
+  },
+  {
+    "zh": "产品发布",
+    "en": "Product launch",
+    "ja": "製品リリース",
+    "ko": "제품 출시"
+  },
+  {
+    "zh": "学习清单",
+    "en": "Learning checklist",
+    "ja": "学習リスト",
+    "ko": "학습 체크리스트"
+  },
+  {
+    "zh": "关闭演示",
+    "en": "Close demo",
+    "ja": "デモを閉じる",
+    "ko": "데모 닫기"
+  },
+  {
+    "zh": "Fieldnotes · 开源发布页，探索开源与云端社区的可复用交互网站模板。",
+    "en": "Fieldnotes · Launch page. Reusable interactive templates for open-source and cloud communities.",
+    "ja": "Fieldnotes · リリースページ。オープンソースとクラウド向けの再利用可能なテンプレート。",
+    "ko": "Fieldnotes · 출시 페이지. 오픈소스와 클라우드 커뮤니티를 위한 재사용 가능한 인터랙티브 템플릿."
+  },
+  {
+    "zh": "工作流界面演示",
+    "en": "Workflow interface demo",
+    "ja": "ワークフローデモ",
+    "ko": "워크플로 인터페이스 데모"
+  }
+]
