@@ -1,5 +1,9 @@
 # Open Source Template Lab
 
+Four original templates for product launches, public GitHub analytics, personal contribution planning and curated resources. The deployed site defaults to **English**, with **Chinese, Japanese and Korean** in the header selector. Language preferences persist in the visitor's browser. No external translation API is used.
+
+`src/translations.js` contains the four-language phrase catalog. `scripts/build.mjs` generates English HTML and the static translation records; `src/i18n.js` handles client-side switching. Custom task titles, notes and custom resource descriptions remain in the language entered by their author.
+
 四套与本机项目无关的原创交互模板，围绕 AI、云开发与公共开源社区。
 
 | 页面 | 用途 | 功能与边界 |
@@ -13,7 +17,7 @@
 
 ## 本地运行
 
-只需 Node.js 22+，无第三方 npm 依赖，无需 npm install。
+只需 Node.js 22+，无第三方 npm 依赖，无需 npm install。构建默认生成英文；源 HTML 的中文为翻译的规范键，不决定默认显示语言。
 
 ```powershell
 npm run check

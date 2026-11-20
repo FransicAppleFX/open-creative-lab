@@ -4,3 +4,5 @@
 
 /* Keep intrinsic tables inside their scroll container on narrow screens. */
 .app-main,.panel{min-width:0}.table-wrap{max-width:100%}.art-launch .orbit{width:65px;height:65px;right:25px;top:135px;border-width:12px;box-shadow:0 0 0 9px #193f39}@media(max-width:760px){.app-shell{grid-template-columns:minmax(0,1fr)}}
+
+.language-control{display:flex;align-items:center}.language-control select{font-size:.875rem;max-width:130px}.topbar{height:auto;min-height:82px;padding:18px 0;flex-wrap:wrap}.gallery .language-control select{--surface:#19232e;--line:#40505e;color:#edf1f2}.gallery .language-control option{background:#19232e;color:white}.nav{flex-wrap:wrap}.task h3,.resource-card h3{overflow-wrap:anywhere}

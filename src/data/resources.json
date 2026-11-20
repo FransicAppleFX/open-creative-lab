@@ -9,6 +9,7 @@
  {"id":"astrowind","name":"AstroWind","category":"前端设计","description":"以 Astro 构建产品与内容站点的社区模板，使用前核对当前依赖版本。","url":"https://github.com/arthelokyo/astrowind","label":"宣传模板"},
  {"id":"github-explore","name":"GitHub Explore","category":"社区学习","description":"探索社区项目与主题，找到感兴趣的工具和贡献方向。","url":"https://github.com/explore","label":"社区发现"},
  {"id":"opensource","name":"Open Source Guides","category":"社区学习","description":"了解如何参与、维护和发展开源项目，以及贡献者协作方式。","url":"https://opensource.guide/","label":"贡献指南"},
- {"id":"mdn","name":"MDN Web Docs","category":"社区学习","description":"学习 HTML、CSS、JavaScript 和 Web API 的基础文档。","url":"https://developer.mozilla.org/zh-CN/","label":"Web 基础"},
+ {"id":"mdn","name":"MDN Web Docs","category":"社区学习","description":"学习 HTML、CSS、JavaScript 和 Web API 的基础文档。","url":"https://developer.mozilla.org/en-US/","label":"Web 基础"},
  {"id":"actions","name":"GitHub Actions Docs","category":"自动化","description":"了解仓库检查、工作流和自动化维护的官方使用方法。","url":"https://docs.github.com/en/actions","label":"仓库自动化"}
 ]
+
