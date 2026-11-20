@@ -113,7 +113,7 @@ References: [GitHub personal repository permissions](https://docs.github.com/en/
 
 AUTO_DEPLOY_ENABLED=true
 
-This section supersedes the earlier manual-only configuration. The automatic path uses a linked Sites cloud task that polls GitHub main every 15 minutes in Asia/Shanghai. It is not an immediate GitHub webhook and does not require the local Windows computer to remain on. GitHub Actions validates and marks eligible source; the cloud task independently verifies that source and publishes with the authorized Sites tools. A green GitHub workflow alone is still not proof of a successful Site deployment. Activation is confirmed by an enabled task in the Site's Automations; the initial cloud run must be verified by its production release record.
+This section supersedes the earlier manual-only configuration. The automatic path uses a linked Sites cloud task that polls GitHub main every hour in Asia/Shanghai. The platform rejected a 15-minute cadence because cloud tasks can run at most once per hour. It is not an immediate GitHub webhook and does not require the local Windows computer to remain on. GitHub Actions validates and marks eligible source; the cloud task independently verifies that source and publishes with the authorized Sites tools. A green GitHub workflow alone is still not proof of a successful Site deployment. Activation is confirmed by an enabled task in the Site's Automations; the initial cloud run must be verified by its production release record.
 
 ### Fixed release boundary
 
