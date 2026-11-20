@@ -7,6 +7,7 @@ function translate(text){const clean=text.trim();if(!clean)return text;const row
 for(const name of await readdir('dist')){
  if(!name.endsWith('.html'))continue;
  let html=await readFile('dist/'+name,'utf8');
+ if(name==='live2d-frame.html'){await writeFile('dist/'+name,html.replace('lang="zh-CN"','lang="en-US"'));continue;}
  // Preserve canonical option values independently from their displayed language.
  html=html.replace(/<option>([^<]+)<\/option>/g,(_,label)=>`<option value="${label}">${label}</option>`);
  html=html.replace(/>([^<>]+)</g,(_,text)=>'>'+translate(text)+'<');
@@ -18,4 +19,5 @@ for(const name of await readdir('dist')){
  await writeFile('dist/'+name,html);
 }
 await writeFile('dist/data/static-i18n.json',JSON.stringify([...records.values()],null,2));
+await import('./vendor.mjs');
 console.log('Built 4 templates and the gallery in dist/.');

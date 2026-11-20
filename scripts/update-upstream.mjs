@@ -1,0 +1,12 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+const [name,ref]=process.argv.slice(2),lock=JSON.parse(await readFile('upstreams.json','utf8'));
+const item=lock.items.find(x=>x.name===name);
+if(!item||!ref||! /^[A-Za-z0-9][A-Za-z0-9._/-]{0,100}$/.test(ref))throw Error('Usage: node scripts/update-upstream.mjs <registered-name> <tag-or-branch>');
+const cwd='third_party/'+name,git=args=>execFileSync('git',args,{cwd,encoding:'utf8',windowsHide:true});
+if(git(['status','--porcelain']).trim())throw Error('The submodule has local changes. Preserve them before updating.');
+git(['fetch','--depth','1','origin',ref]);git(['checkout','--detach','FETCH_HEAD']);
+item.ref=ref;item.commit=git(['rev-parse','HEAD']).trim();lock.fetchedAt=new Date().toISOString();
+await writeFile('upstreams.json',JSON.stringify(lock,null,2)+'\n');
+console.log('Updated source pin:',name,item.commit);
+console.log('Review the upstream license and changes. Update the matching npm runtime version, rebuild, test and commit the submodule pin before publishing.');

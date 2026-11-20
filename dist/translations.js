@@ -1,3 +1,4 @@
+import {creativeEntries} from './creative-translations.js';
 // Canonical Chinese | English | Japanese | Korean. All translations are bundled; no translation service is called.
 const rows=`
 开源灵感，四种打开方式|Open-source ideas, four ways to build|オープンソースを4つの形に|오픈소스의 네 가지 활용법
@@ -304,7 +305,7 @@ GitHub 请求失败。|GitHub request failed.|GitHub への要求に失敗しま
 来源|Source|出典|출처
 开放Issues和PR|Open issues and PRs|未解決 Issue と PR|열린 이슈 및 PR
 `;
-export const entries=rows.trim().split('\n').map(line=>line.split('|'));
+export const entries=[...rows.trim().split('\n').map(line=>line.split('|')),...creativeEntries];
 export const dictionary=new Map(entries.map(([zh,en,ja,ko])=>[zh,{zh,en,ja,ko}]));
 export const supported=['en','zh','ja','ko'];
 export const locales={en:'en-US',zh:'zh-CN',ja:'ja-JP',ko:'ko-KR'};
