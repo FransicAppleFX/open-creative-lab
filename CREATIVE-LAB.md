@@ -19,7 +19,7 @@ Source references use sparse checkouts containing README, package and license fi
 
 ```powershell
 git clone --recurse-submodules https://github.com/FransicAppleFX/open-creative-lab.git
-# The URL above is the intended destination; publication there is not yet verified.
+
 git submodule status
 npm ci --ignore-scripts
 npm run check
@@ -37,17 +37,17 @@ Replace the final argument with a reviewed upstream tag or branch. The script re
 
 GitHub Actions uses `npm ci --ignore-scripts`, checks and a static build. It does not automatically deploy to Sites or request a persistent Sites token. The old gh-pages dependency from pixi-live2d-display is overridden to 6.3.0; the installed dependency audit reports zero vulnerabilities at this build.
 
-## GitHub association status
+## GitHub maintenance and Sites publishing
 
-The user selected the new repository **FransicAppleFX/open-creative-lab**. This checkout has a `github` remote pointing to that intended destination, separate from Sites. The connector installation was verified in the signed-in browser, but connector calls currently return Unknown tool and browser form actions time out. The existing host credential authenticates as **EndtoS**, not FransicAppleFX, and cannot write to the requested account. No repository creation or GitHub push is claimed successful. No token or browser session was extracted into the source.
+The public source repository is https://github.com/FransicAppleFX/open-creative-lab. Its main branch contains the original Site history and six real Git submodules. The verified bundle was imported through the signed-in GitHub browser and GitHub Actions; no browser session or credential was copied into source.
 
-After a working FransicAppleFX connection is available, create the requested repository if it is still absent and run a normal, non-force push:
+The workflow .github/workflows/source-check.yml validates pull requests and main-branch pushes with npm ci --ignore-scripts, npm run check and npm run build, then retains the static build artifact for 14 days. The initial import passed on 2026-11-20. The bundle import step is inert after the bundle is removed.
 
-```powershell
-git push github main
-```
+Site: https://fx2026-template-lab.dapperrowan3.chatgpt.site/creative
 
-A Git bundle is supplied outside the checkout with the complete main-branch history and real submodule gitlinks. It contains no Git credentials or .git/config. Restore with `git clone <bundle-path> open-creative-lab`, then initialize submodules from their public GitHub URLs. A ZIP alone does not preserve the gitlink entries.
+GitHub validation does not automatically publish to ChatGPT Sites. To update production, use the Sites plugin with the existing project_id in .openai/hosting.json, pull the reviewed GitHub main commit, rebuild, push the exact source to the existing Sites source repository, save that version and deploy it. Keep the current public audience. No persistent Sites token is stored in GitHub.
+
+For local development, use a Git credential authorized for FransicAppleFX. Browser sign-in and host Git sign-in are independent. The checkout's github remote points to this repository; normal pushes should use git push github main after authenticating the intended account. Never force-push to bypass a divergence.
 
 ## Verification
 
