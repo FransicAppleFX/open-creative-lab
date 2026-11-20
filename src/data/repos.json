@@ -1,0 +1,78 @@
+{
+  "fetchedAt": "2026-11-20T14:34:19.710Z",
+  "source": "GitHub REST API /repos/{owner}/{repo}",
+  "items": [
+    {
+      "repo": "ollama/ollama",
+      "category": "AI 工具",
+      "description": "本地与云端模型运行工具。",
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama",
+      "stars": 187741,
+      "forks": 19183,
+      "issues": 4693,
+      "license": "MIT",
+      "updatedAt": "2026-11-20T14:31:01Z"
+    },
+    {
+      "repo": "langgenius/dify",
+      "category": "AI 工具",
+      "description": "构建 AI 应用、Agent 工作流与知识库。",
+      "name": "dify",
+      "url": "https://github.com/langgenius/dify",
+      "stars": 161565,
+      "forks": 25545,
+      "issues": 1324,
+      "license": "NOASSERTION",
+      "updatedAt": "2026-11-20T14:33:15Z"
+    },
+    {
+      "repo": "n8n-io/n8n",
+      "category": "自动化",
+      "description": "可视化工作流自动化平台；请注意其 fair-code 许可。",
+      "name": "n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 211514,
+      "forks": 61607,
+      "issues": 1221,
+      "license": "NOASSERTION",
+      "updatedAt": "2026-11-20T14:31:49Z"
+    },
+    {
+      "repo": "supabase/supabase",
+      "category": "云开发",
+      "description": "围绕 Postgres 的应用开发平台。",
+      "name": "supabase",
+      "url": "https://github.com/supabase/supabase",
+      "stars": 115197,
+      "forks": 15144,
+      "issues": 1267,
+      "license": "Apache-2.0",
+      "updatedAt": "2026-11-20T14:34:02Z"
+    },
+    {
+      "repo": "satnaing/shadcn-admin",
+      "category": "前端设计",
+      "description": "基于 shadcn/ui 的管理后台模板。",
+      "name": "shadcn-admin",
+      "url": "https://github.com/satnaing/shadcn-admin",
+      "stars": 16897,
+      "forks": 2534,
+      "issues": 28,
+      "license": "MIT",
+      "updatedAt": "2026-11-20T14:17:07Z"
+    },
+    {
+      "repo": "shadcn-ui/ui",
+      "category": "前端设计",
+      "description": "可编辑和组合的前端组件。",
+      "name": "ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "stars": 128631,
+      "forks": 11425,
+      "issues": 1760,
+      "license": "MIT",
+      "updatedAt": "2026-11-20T14:26:35Z"
+    }
+  ]
+}
